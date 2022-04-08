@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: "Denk One", Georgia;
+  font-family: "Denk One", sans-serif;
   line-height: 1.5;
 }
 
@@ -9,11 +9,8 @@ html {
 }
 
 body {
-  background-color: #f5f2f0;
-}
-
-main {
   margin: 1.5rem;
+  background-color: #f5f2f0;
 }
 
 h1 {
@@ -21,7 +18,7 @@ h1 {
 }
 
 h2 {
-  color:  #623b0c;
+  color: #623b0c;
 }
 
 ol {
@@ -45,7 +42,7 @@ ol li {
 }
 
 img {
-  width: auto;
+  width: 100%;
 }
 
 p {
