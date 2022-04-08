@@ -20,6 +20,8 @@ h1 {
 }
 
 h2 {
+  margin: 0;
+  padding: 0 0 1rem;
   font-family: "Denk One", sans-serif;
   color: #623b0c;
 }
@@ -35,9 +37,9 @@ ol {
 
 ol li {
   display: flex;
-  justify-content: space-between;
-  align-content: flex-start;
   flex-direction: column;
+  justify-content: flex-end;
+  align-content: center;
   padding: .5em .75em .6em;
   background-color: #ede3db;
   border-style: solid;
