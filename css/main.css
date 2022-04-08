@@ -35,7 +35,8 @@ ol {
 
 ol li {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
+  align-content: flex-start;
   flex-direction: column;
   padding: .5em .75em .6em;
   background-color: #ede3db;
@@ -49,11 +50,13 @@ img {
   width: 100%;
 }
 
-p {
+li p {
+  flex-grow: 1;
   color: #000;
 }
 
 a:link {
+  padding: .5em .75em .6em;
   text-decoration: none;
   background-color: #623b0c;
   border-radius: 8px;
