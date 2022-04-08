@@ -20,7 +20,8 @@ h1 {
 }
 
 h2 {
-  margin: 1.5rem 0 1.5rem 0;
+  margin: 0;
+  padding: 0 0 1rem;
   font-family: "Denk One", sans-serif;
   color: #623b0c;
 }
@@ -40,6 +41,7 @@ ol li {
   justify-content: space-between;
   align-content: flex-start;
   padding: .5em .75em .6em;
+  margin: 0;
   background-color: #ede3db;
   border-style: solid;
   border-width: 2px;
@@ -49,6 +51,7 @@ ol li {
 
 img {
   width: 100%;
+  margin: 0;
 }
 
 li p {
@@ -58,6 +61,7 @@ li p {
 
 a:link {
   padding: .5em .75em .6em;
+  margin: 0;
   text-decoration: none;
   background-color: #623b0c;
   border-radius: 8px;
