@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: Georgia;
+  font-family: Georgia, serif;
   line-height: 1.5;
 }
 
@@ -13,14 +13,11 @@ body {
   background-color: #f5f2f0;
 }
 
-main {
-  margin: 1.5rem;
-}
-
 h1 {
+  margin: 1.5rem;
+  padding: 1rem;
   font-family: "Denk One", sans-serif;
   color: #623b0c;
-  padding: 1rem;
 }
 
 h2 {
@@ -37,6 +34,7 @@ ol {
 
 ol li {
   display: flex;
+  justify-content: flex-start;
   flex-direction: column;
   padding: .5em .75em .6em;
   background-color: #ede3db;
